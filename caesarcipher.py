@@ -12,9 +12,6 @@ def decrypt(encrypted_text, decrypt_key):
     return plain_text
 
 
-if __name__ == '__main__':
-    decrypted_text = decrypt(input("PLEASE INPUT TEXT : "), int(input("PLEASE INPUT KEY : ")))
+decrypted_text = decrypt(input("PLEASE INPUT TEXT : "), int(input("PLEASE INPUT KEY : ")))
 
-    print("PLAINTEXT : " + decrypted_text)
-
-    input("PLEASE PRESS ANY")
+print("PLAINTEXT : " + decrypted_text)
